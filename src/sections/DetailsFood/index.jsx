@@ -11,7 +11,7 @@ const DetailsFood = () => {
           data-aos="fade-right"
           className="flex flex-col gap-4 justify-center"
         >
-          <h1 className="text-4xl w-full font-bold">
+          <h1 className=" text-4xl w-full font-bold">
             Comidinha brasileira no coração de Friburgo
           </h1>
           <p className="text-md w-1/2">
