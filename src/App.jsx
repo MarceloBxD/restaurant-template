@@ -6,7 +6,7 @@ import Summary from "./sections/summary";
 
 function App() {
   return (
-    <div className="overflow-x-hidden">
+    <>
       <Header />
       <ImagesSwiper />
       <Summary />
@@ -14,7 +14,7 @@ function App() {
       <Summary />
       <Infos />
       <DetailsFood />
-    </div>
+    </>
   );
 }
 
