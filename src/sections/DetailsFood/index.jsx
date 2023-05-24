@@ -6,7 +6,7 @@ const DetailsFood = () => {
   Aos.init();
   return (
     <div className="container mb-10 m-auto">
-      <div className="flex flex-col md:flex md:flex-row px-8  items-center justify-center ">
+      <div className="flex flex-col md:flex md:flex-row px-16  items-center justify-center ">
         <div
           data-aos="fade-right"
           className="flex flex-col gap-4 justify-center"
