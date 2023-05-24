@@ -11,7 +11,7 @@ const DetailsFood = () => {
           data-aos="fade-right"
           className="flex flex-col gap-4 justify-center"
         >
-          <h1 className=" text-4xl w-full font-bold">
+          <h1 className=" text-2xl w-full font-bold">
             Comidinha brasileira no coração de Friburgo
           </h1>
           <p className="text-md w-1/2">
@@ -23,7 +23,7 @@ const DetailsFood = () => {
         </div>
         <div data-aos="fade-left">
           <img
-            className=" mt-8 md:mt-0 w-screen bg-black p-3 h-72 object-cover bg-no-repeat bg-center bg-cover"
+            className="mt-8 md:mt-0 w-screen bg-black p-3 h-72 object-cover bg-no-repeat bg-center bg-cover"
             src="../../../public/assets/images/Image.png"
             alt="food_img"
           />

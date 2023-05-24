@@ -19,7 +19,6 @@ const ImagesSwiper = () => {
   return (
     <div>
       <Swiper
-        className="h-96"
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
         autoplay={{
@@ -33,7 +32,7 @@ const ImagesSwiper = () => {
         {images.map((image) => (
           <SwiperSlide key={image.id}>
             <img
-              className="w-full object-cover bg-no-repeat bg-center bg-cover"
+              className="w-full h-72 object-cover bg-no-repeat bg-center bg-cover"
               src={image.image}
             />
           </SwiperSlide>
