@@ -7,7 +7,7 @@ const Infos = () => {
   return (
     <div className="container flex flex-col my-6 gap-12 m-auto md:flex md:flex-row py-16 justify-around">
       <div data-aos="zoom-in-down" className="flex flex-col gap-4">
-        <div className="flex gap-4  justify-center items-center mt-8 mb-4 md:mt-0 md:mb-0">
+        <div className="flex gap-4 justify-center items-center mt-8 mb-4 md:mt-0 md:mb-0">
           <img className="object-cover bg-cover shrink-0 w-8" src={cube} />
           <h1 className="text-xl font-bold">Horário de funcionamento</h1>
         </div>

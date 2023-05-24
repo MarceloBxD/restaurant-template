@@ -5,16 +5,16 @@ import "aos/dist/aos.css";
 const DetailsFood = () => {
   Aos.init();
   return (
-    <div className="container mb-10 m-auto">
-      <div className="flex flex-col md:flex md:flex-row px-16  items-center justify-center ">
+    <div className="container px-28 mb-10 m-auto">
+      <div className="flex flex-col items-center justify-center ">
         <div
           data-aos="fade-right"
-          className="flex flex-col gap-4 justify-center"
+          className="flex flex-col gap-4 justify-normal"
         >
           <h1 className=" text-2xl w-full font-bold">
             Comidinha brasileira no coração de Friburgo
           </h1>
-          <p className="text-md w-1/2">
+          <p className="text-md w-full ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus, mi quis
             viverra ornare, eros dolor interdum nulla, ut commodo diam libero
@@ -23,7 +23,7 @@ const DetailsFood = () => {
         </div>
         <div data-aos="fade-left">
           <img
-            className="mt-8 md:mt-0 w-screen bg-black p-3 h-72 object-cover bg-no-repeat bg-center bg-cover"
+            className="bg-black mt-12 p-3 object-cover bg-no-repeat bg-center bg-cover"
             src="../../../public/assets/images/Image.png"
             alt="food_img"
           />
