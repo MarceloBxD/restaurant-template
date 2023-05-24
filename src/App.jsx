@@ -1,6 +1,8 @@
+import DetailsFood from "./sections/DetailsFood";
 import Header from "./sections/Header";
 import ImagesSwiper from "./sections/ImagesSwiper";
 import Infos from "./sections/Infos";
+import OurSpace from "./sections/OurSpace";
 import Summary from "./sections/summary";
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       <Summary />
       <Summary />
       <Infos />
+      <DetailsFood />
     </>
   );
 }

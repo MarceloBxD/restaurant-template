@@ -33,7 +33,7 @@ const ImagesSwiper = () => {
         {images.map((image) => (
           <SwiperSlide key={image.id}>
             <img
-              className="w-screen object-cover bg-no-repeat bg-center bg-cover"
+              className="w-full object-cover bg-no-repeat bg-center bg-cover"
               src={image.image}
             />
           </SwiperSlide>

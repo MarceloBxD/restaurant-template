@@ -7,7 +7,7 @@ const Summary = () => {
   return (
     <div
       data-aos={"fade-right"}
-      className="py-16 px-16 flex flex-col m-auto items-center md:flex "
+      className="py-8 px-16 flex flex-col m-auto items-center md:flex "
     >
       <div className="">
         <h1 className="text-6xl font-bold">Majors Studio</h1>
