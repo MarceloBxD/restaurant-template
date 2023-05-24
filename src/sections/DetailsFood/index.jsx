@@ -23,7 +23,7 @@ const DetailsFood = () => {
         </div>
         <div data-aos="fade-left">
           <img
-            className="w-full mt-8 md:mt-0 bg-black p-3 h-72 object-cover bg-no-repeat bg-center bg-cover"
+            className=" mt-8 md:mt-0 w-screen bg-black p-3 h-72 object-cover bg-no-repeat bg-center bg-cover"
             src="../../../public/assets/images/Image.png"
             alt="food_img"
           />
